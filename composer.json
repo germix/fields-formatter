@@ -1,0 +1,13 @@
+{
+    "name": "germix/fields-formatter",
+    "type": "library",
+    "description": "Format fields of objects",
+    "license": "GPL-3.0-or-later",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Germix\\FieldsFormatter\\": "src"
+        }
+    }
+}
