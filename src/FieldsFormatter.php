@@ -70,6 +70,14 @@ class FieldsFormatter
                 }
             }
         }
+        else if($target instanceof FieldsFormatterIterator)
+        {
+            $iter = $target;
+            while(null != ($target = $iter->getEntity()))
+            {
+                array_push($json, $this->format($target, $fields));
+            }
+        }
         else if($target instanceof \Traversable)
         {
             foreach($target as $e)
