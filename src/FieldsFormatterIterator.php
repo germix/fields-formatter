@@ -9,5 +9,5 @@ namespace Germix\FieldsFormatter;
  */
 interface FieldsFormatterIterator
 {
-	public function getEntity() : FieldsFormatterEntity;
+	public function getEntity() : ?FieldsFormatterEntity;
 }
