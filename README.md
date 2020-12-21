@@ -6,7 +6,7 @@
 
 ## How to use
 
-Suppose we have two classes called **Post** and **Commit** that implement **FieldsFormatterEntity**
+Suppose we have two classes called **Post** and **Comment** that implement **FieldsFormatterEntity**
 
 The **Post** class:
 
